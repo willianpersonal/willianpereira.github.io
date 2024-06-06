@@ -476,6 +476,15 @@ h1, h2, h3, h4, h5, h6, figure {
   display: table-cell !important;
   vertical-align: middle;
   padding: 0 40px;
+  figure{
+		margin-bottom: 10px;
+		@include inline-block;
+		
+		img {
+			width: 200px;
+			@include border-radius(50%);
+		}
+	}
 }
 #fh5co-header .display-tc h1, #fh5co-header .display-tc h2,
 #fh5co-counter .display-tc h1,
@@ -1296,6 +1305,19 @@ h1, h2, h3, h4, h5, h6, figure {
   letter-spacing: 2px;
   text-transform: uppercase;
 }
+
+#fh5co-footer .copyright {
+  figure{
+		margin-bottom: 10px;
+		@include inline-block;
+		
+		img {
+			width: 200px;
+			@include border-radius(50%);
+		}
+	}
+}
+
 #fh5co-footer .copyright .block {
   display: block;
 }
