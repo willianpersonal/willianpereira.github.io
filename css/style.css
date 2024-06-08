@@ -363,7 +363,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 @media screen and (max-width: 768px) {
   .fh5co-cover {
-    height: 600px;
+    height: 650px;
   }
 }
 .fh5co-cover .display-t,
@@ -478,11 +478,9 @@ h1, h2, h3, h4, h5, h6, figure {
   padding: 0 40px;
   figure{
 		margin-bottom: 10px;
-		@include inline-block;
 		
 		img {
-			width: 200px;
-			@include border-radius(50%);
+			width: 300px;
 		}
 	}
 }
@@ -1312,7 +1310,7 @@ h1, h2, h3, h4, h5, h6, figure {
 		@include inline-block;
 		
 		img {
-			width: 200px;
+			width: 300px;
 			@include border-radius(50%);
 		}
 	}
